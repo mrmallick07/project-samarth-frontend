@@ -68,13 +68,13 @@ A beautiful, intuitive chat interface that lets users:
 ## 🖥️ Screenshots
 
 ### Landing Page
-![Landing Page](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+![Landing Page](./screenshots/landing.png)
 
 ### Query & Response
-![Query Response](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+![Query Response](./screenshots/query.png)
 
 ### Citations Display
-![Citations](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+![Citations](./screenshots/response.png)
 
 ---
 
