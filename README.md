@@ -1,70 +1,233 @@
-# Getting Started with Create React App
+# 🎨 Project Samarth - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Modern, responsive chat interface for querying India's agricultural and climate data
 
-## Available Scripts
+**Part of Project Samarth** - Built for Build for Bharat Challenge 🇮🇳
 
-In the project directory, you can run:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://project-samarth-frontend-eight.vercel.app/)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Live App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**👉 Try it now:** https://project-samarth-frontend-eight.vercel.app/
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 What This Is
 
-### `npm run build`
+A beautiful, intuitive chat interface that lets users:
+- ✍️ Ask questions in **plain English**
+- 📊 Get **data-backed answers** from government sources
+- 📚 See **full citations** for every claim
+- 🔄 Interact in **real-time** with instant responses
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎨 **Modern UI/UX**
+- Clean, professional design with Tailwind CSS
+- Responsive layout (works on mobile, tablet, desktop)
+- Real-time message streaming
+- Loading states and animations
+- Green "Backend Connected" indicator
 
-### `npm run eject`
+### 💬 **Smart Chat Interface**
+- Sample questions to get started
+- Message history
+- Timestamp for each message
+- Typing indicator while processing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📖 **Source Citations**
+- Every answer includes data sources
+- Clickable links to datasets
+- Ministry/department attribution
+- Dataset resource IDs for verification
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🚀 **Performance**
+- Fast initial load
+- Optimized React components
+- Efficient state management
+- Lazy loading where possible
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+- **React 18** - UI library
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **Fetch API** - Backend communication
+- **Vercel** - Deployment platform
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🖥️ Screenshots
 
-### Code Splitting
+### Landing Page
+![Landing Page](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Query & Response
+![Query Response](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
-### Analyzing the Bundle Size
+### Citations Display
+![Citations](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔧 Local Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
+- Node.js 16+ and npm
 
-### Advanced Configuration
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. **Clone the repository**
+```bash
+git clone https://github.com/mrmallick07/project-samarth-frontend.git
+cd project-samarth-frontend
+```
 
-### Deployment
+2. **Install dependencies**
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. **Configure backend URL**
+Create `.env` file:
+```bash
+REACT_APP_API_URL=http://localhost:5000/api
+```
 
-### `npm run build` fails to minify
+For production, use:
+```bash
+REACT_APP_API_URL=https://project-samarth-api-cs4k.onrender.com/api
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Start development server**
+```bash
+npm start
+```
+
+Opens at: `http://localhost:3000`
+
+### Build for Production
+```bash
+npm run build
+```
+
+Creates optimized build in `build/` folder.
+
+---
+
+## 🌍 Deployment
+
+### Deploy to Vercel (Free)
+
+1. **Fork this repository**
+2. **Sign up at [Vercel.com](https://vercel.com) with GitHub**
+3. **Import this repository**
+4. **Add Environment Variable:**
+   - Name: `REACT_APP_API_URL`
+   - Value: Your backend API URL
+5. **Deploy!**
+
+Vercel auto-deploys on every push to main branch.
+
+---
+
+## 📁 Project Structure
+```
+project-samarth-frontend/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.js          # Main component
+│   ├── App.css         # Styles
+│   └── index.js        # Entry point
+├── package.json
+└── README.md
+```
+
+---
+
+## 🎨 UI Components
+
+### Main Chat Interface
+```jsx
+<div className="chat-container">
+  <Header />              {/* Title + Backend status */}
+  <SampleQuestions />     {/* Quick start questions */}
+  <MessageList />         {/* Chat history */}
+  <InputBox />            {/* User input */}
+</div>
+```
+
+### Message Types
+1. **System Messages** - Welcome, instructions
+2. **User Messages** - User queries (green, right-aligned)
+3. **Bot Messages** - AI responses with citations (white, left-aligned)
+4. **Loading State** - Spinner while processing
+
+---
+
+## 🔗 Related Repositories
+
+- **Backend API:** https://github.com/mrmallick07/project-samarth-backend
+- **Full Project:** https://project-samarth-frontend-eight.vercel.app/
+
+---
+
+## 🐛 Troubleshooting
+
+### Issue: "Backend not connected"
+**Solution:** 
+- Check if backend is running
+- Verify `REACT_APP_API_URL` in `.env`
+- On free tier, first request takes 30-60 sec (backend waking up)
+
+### Issue: CORS errors
+**Solution:** Backend must allow your frontend origin in CORS settings
+
+### Issue: Build fails
+**Solution:** 
+- Delete `node_modules` and `package-lock.json`
+- Run `npm install` again
+- Check Node.js version (requires 16+)
+
+---
+
+## 🤝 Contributing
+
+This is a hackathon prototype. To improve:
+
+1. Add dark mode toggle
+2. Export answers as PDF
+3. Add query history (with local storage)
+4. Add data visualization (charts)
+5. Implement voice input
+6. Add multi-language support
+
+---
+
+## 👨‍💻 Author
+
+**Noushad Mallick**
+- GitHub: [@mrmallick07](https://github.com/mrmallick07)
+- Built for: Build for Bharat Challenge 2024
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+**⭐ Star this repo if you found it useful!**
+
+[🌐 Try Live Demo](https://project-samarth-frontend-eight.vercel.app/) | [🔗 Backend Repo](https://github.com/mrmallick07/project-samarth-backend) | [📧 Report Issues](https://github.com/mrmallick07/project-samarth-frontend/issues)
